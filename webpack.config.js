@@ -110,10 +110,7 @@ if (TARGET === 'build:css') {
   module.exports = merge(common, {
     entry: [
       './src/style/style.less',
-      './src/style/high-res.less',
-      './src/style/material.less',
       './src/style/bootstrap.less',
-      './src/style/semantic-ui.less',
       './src/style/plain.less'
     ],
     mode: 'production',
